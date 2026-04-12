@@ -8,6 +8,72 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Utilities */
+
+.bgLight {
+  background-color: #eae3ff !important;
+}
+
+.bgDark {
+  background-color: #dfd7fc !important;
+}
+
+.mainHeading {
+  font-size: 38px; /*it can be from 32 - 40px*/
+  font-weight: bold;
+  color: #272044;
+}
+
+.sectionHeading {
+  font-size: 28px; /*it can be from 24 - 28px*/
+  font-weight: bold;
+  color: #272044;
+  text-transform: uppercase;
+}
+
+.subHeading {
+  font-size: 20px; /*it can be from 18 - 22px*/
+  font-weight: bold;
+  color: #272044;
+}
+
+.landingText {
+  font-size: 16px;
+  color: #212529;
+  font-weight: bold;
+}
+
+.bodyText {
+  font-size: 15px; /*it can be from 14 - 16px*/
+  color: #212529;
+}
+
+.smallText {
+  font-size: 14px;
+  color: #212529;
+}
+
+.widthSmall {
+  max-width: 700px;
+}
+
+.readMoreBtn {
+  background-color: #885df1;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+.readMoreBtn:hover {
+  background-color: #6b3db1;
+  color: #ffffff;
+}
+
+.cardHover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
 /* Navbar */
 header .navbar {
   background-color: #ffffff;
@@ -30,16 +96,58 @@ header .navbar ul li a:hover {
 
 /* Landing Page */
 main #landingPage {
-  background-image: url("../Images/landingggg\ page.jpg");
-  /* background-image: url("../Images/Landing\ Page.jpg"); */
-  /* background-image: url("../Images/landing\ pageeeeee.jpg"); */
+  background-image: url("../Images/Landing/Landing\ Page.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
 main #landingPage .container-fluid {
-  background-color: rgba(136, 93, 241, 0.5);
+  background-color: rgba(136, 93, 241, 0.2);
   backdrop-filter: blur(5px);
   height: 100vh;
 }
+
+main #landingPage .container-fluid .container {
+  background-color: rgba(229, 226, 235, 0.4);
+  backdrop-filter: blur(3px);
+  border-top: 7px solid #885df1;
+  margin-top: 70px;
+}
+
+/* Medium Devices */
+/* @media (max-width: 992px) {
+  main #landingPage .container-fluid .container {
+    padding-top: 15px;
+  }
+} */
+
+@media (max-width: 768px) {
+  /* Small devices */
+  main #landingPage .container-fluid .container {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Extra small devices */
+  main #landingPage .container-fluid .container {
+    padding-top: 5px;
+  }
+}
+
+main #landingPage .container-fluid .container a {
+  font-size: 15px;
+  background-color: #885df1;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+main #landingPage .container-fluid .container a:hover {
+  background-color: #6b3db1;
+  color: #ffffff;
+}
+
+/* Stories of Strength */
