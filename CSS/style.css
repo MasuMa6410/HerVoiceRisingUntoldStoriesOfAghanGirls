@@ -74,6 +74,63 @@ body {
   transition: all 0.3s ease;
 }
 
+.readMoreBtnPink {
+  background-color: #f65282;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.readMoreBtnPink:hover {
+  background-color: #fb729b;
+  color: #ffffff;
+}
+
+.closeBtnPink {
+  background-color: #f65282;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.pinkTopBorder {
+  border-top: 7px solid #f65282;
+}
+
+.readMoreBtnBlue {
+  background-color: #29d2fb;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+.readMoreBtnBlue:hover {
+  background-color: #4ed0f7;
+  color: #ffffff;
+}
+
+.blueTopBorder {
+  border-top: 7px solid #29d2fb;
+}
+
+.readMoreBtnYellow {
+  background-color: #f6c344;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+.readMoreBtnYellow:hover {
+  background-color: #f8d366;
+  color: #ffffff;
+}
+
+.yellowTopBorder {
+  border-top: 7px solid #f6c344;
+}
+
 /* Navbar */
 header .navbar {
   background-color: #ffffff;
@@ -150,4 +207,24 @@ main #landingPage .container-fluid .container a:hover {
   color: #ffffff;
 }
 
-/* Stories of Strength */
+/* Inspire & Learn */
+
+#learn {
+  background-image: url("../Images/Learn/Learn\ BG.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#learn .container-fluid {
+  background-color: rgba(136, 93, 241, 0.3);
+  backdrop-filter: blur(5px);
+  height: 80vh;
+}
+
+#learn .container-fluid .container {
+  background-color: rgba(229, 226, 235, 0.4);
+  backdrop-filter: blur(3px);
+  border-top: 7px solid #885df1;
+  margin-top: 70px;
+}
