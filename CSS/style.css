@@ -18,6 +18,22 @@ body {
   background-color: #dfd7fc !important;
 }
 
+.bgYellow {
+  background-color: #f6c344 !important;
+}
+
+.bgblue {
+  background-color: #29d2fb !important;
+}
+
+.bgPink {
+  background-color: #f65282 !important;
+}
+
+.bgPurple {
+  background-color: #885df1 !important;
+}
+
 .mainHeading {
   font-size: 38px; /*it can be from 32 - 40px*/
   font-weight: bold;
@@ -213,13 +229,13 @@ main #landingPage .container-fluid .container a:hover {
   background-image: url("../Images/Learn/Learn\ BG.jpg");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 90vh;
 }
 
 #learn .container-fluid {
   background-color: rgba(136, 93, 241, 0.3);
   backdrop-filter: blur(5px);
-  height: 80vh;
+  height: 90vh;
 }
 
 #learn .container-fluid .container {
@@ -227,4 +243,26 @@ main #landingPage .container-fluid .container a:hover {
   backdrop-filter: blur(3px);
   border-top: 7px solid #885df1;
   margin-top: 70px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: #885df1;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+.back-to-top:hover {
+  background-color: #6b3db1;
 }
