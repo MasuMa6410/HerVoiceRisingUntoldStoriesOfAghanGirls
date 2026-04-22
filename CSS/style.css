@@ -40,10 +40,6 @@ body {
   color: #272044;
 }
 
-.card {
-  z-index: 1000000;
-}
-
 .sectionHeading {
   font-size: 28px; /*it can be from 24 - 28px*/
   font-weight: bold;
