@@ -309,7 +309,7 @@ footer .container .footer-links ul li a:hover {
   line-height: 50px;
   font-size: 18px;
   text-decoration: none;
-  z-index: -1;
+  z-index: 1;
 }
 
 .back-to-top:hover {
