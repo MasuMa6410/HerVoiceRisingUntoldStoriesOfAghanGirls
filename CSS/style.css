@@ -40,6 +40,10 @@ body {
   color: #272044;
 }
 
+.card {
+  z-index: 100;
+}
+
 .sectionHeading {
   font-size: 28px; /*it can be from 24 - 28px*/
   font-weight: bold;
@@ -258,6 +262,23 @@ main #landingPage .container-fluid .container a:hover {
   border-top: 7px solid #885df1;
   margin-top: 30px;
 }
+
+/* Understanding the System */
+
+/* .magnifying-glass {
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease;
+  border-radius: 100%;
+  background-color: #885df1;
+}
+
+.magnifying-glass:hover {
+  color: #6b3db1;
+} */
 
 /* Footer */
 
